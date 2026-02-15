@@ -9,7 +9,7 @@ const App: React.FC = () => {
     useEffect(() => {
         const fetchLeads = async () => {
             const response = await fetch(
-                "https://sms-hcr.onrender.com/read"
+                "https://sms-hcdr.onrender.com/read"
             );
 
             const results: lead[] = await response.json();
